@@ -1,2 +1,35 @@
 /venv
 /clean_data.csv
+# -----------------------------
+# Environnement Python / venv
+# -----------------------------
+env/
+*.env
+
+# -----------------------------
+# Cache Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Fichiers lourds suivis par DVC
+# -----------------------------
+data/processed_data/
+models/final_model.pkl
+models/best_model_params.pkl
+
+# -----------------------------
+# Logs et fichiers temporaires
+# -----------------------------
+*.log
+*.tmp
+.DS_Store
+
+# -----------------------------
+# IDE et éditeur
+# -----------------------------
+.vscode/
+.idea/
